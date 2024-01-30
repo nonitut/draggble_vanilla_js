@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face {
+  font-family: "CarlaSansLight";
+  src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+  font-style: Light;
+  font-weight: Light;
+}
+
+p{
+    font-family: 'CarlaSansLight';
+}
+.shock{
+    background-color: blanchedalmond;
+    width: 70px;
+    height: 70px;
+}
+
+.rose{
+    background-color: aqua;
+}
+
+.black{
+font-size: larger;
+}
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: rgb(255, 208, 246);
+    cursor: grab;
+    /* position: absolute; */
+    animation: wow  3s ease-in;
+  }
